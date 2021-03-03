@@ -1,0 +1,33 @@
+.card {
+    margin: 20px 0;
+}
+.card-img {
+
+}
+.card-text {
+    font-size: 14px;
+    padding-left: 10px;
+}
+.card-pod {
+    font-size: 14px;
+    text-align: right;
+}
+.card-pod a {
+    text-decoration: none;
+    color: rgba(139, 138, 138, 0.829);
+    border-bottom: 1px solis #fff;
+}
+
+.card-pod a:hover {
+    border-bottom: 1px solid rgba(139, 138, 138, 0.829);
+}
+
+/*---------------------------------------------------------------*/
+.sticky {
+    /*display: block;*/
+}
+@media (max-width: 693px) {
+    .sticky {
+        display: none !important;
+    }
+}
